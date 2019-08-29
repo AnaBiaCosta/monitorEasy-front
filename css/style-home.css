@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px; 
+    font-size: 20px; 
     color: #121212
 }
 
@@ -26,16 +26,16 @@ li a{
     color: black;
     display: block;
     float: right;
-    margin-right: 20px;
-    padding-right: 10px;
-    padding-left: 10px
+    /* margin-right: 20px; */
+    padding-right: 20px;
+    padding-left: 20px
 }
 
 .btn-login{
     background: #121212;
     color: #00C853;
-    padding-right: 10px;
-    padding-left: 10px
+    padding-right: 20px;
+    padding-left: 20px
 }
 
 
@@ -67,7 +67,63 @@ li a:hover{
     text-align: center
 }
 
+.nav-brand{
+    font-size: 25px
+}
+
+.slogan{
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 0.6em;
+    font-weight: bold;
+    color: #00C853;
+    background: #004D40;
+}
 
 
+.vantagens-container-itens{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    height: 437px;
+    background: #1E1E1E;
+}
+
+.vantagens-item{
+    width: 271px;
+    text-align: center
+}
+
+.text{
+    margin-top: 40px
+}
+
+.title{
+    font-size: 96px;
+    line-height: 1020px;
+    font-weight: bold;
+    margin-left: 50px;
+  
+    
+    color: #FFFFFF;
+}
 
 
+footer{
+    height: 296px;
+    background: #B2FF59;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.area4{
+    height: 787px;
+    background:linear-gradient(180deg, #004D40 0%, rgba(0, 77, 64, 0.51) 0%), url("../img/adult-computer-connection-2696299.png");
+}
+
+
+.tb{
+    font-weight: bold
+}
