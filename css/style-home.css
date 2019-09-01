@@ -180,6 +180,28 @@ li a:hover{
 
 
 /* AREA 4 */
+.area-i{
+    height: 787px;
+    background:linear-gradient(180deg, #004D40 0%, rgba(0, 0, 0, 0.84) 0%), url("../img/blur-chart-data-159888.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px
+}
+
+.title-new{
+    font-size: 130px;
+    width: 600px;
+    padding-right: 50px;
+    
+}
+
+.text-new{
+    width: 620px;
+    line-height: 186.4%;
+}
 
 
 
@@ -203,6 +225,9 @@ li a:hover{
 footer{
     height: 296px;
     background: #B2FF59;
+    font-size: 25px;
+    text-align: center;
+    line-height: 269px
 }
 
 .area4{
@@ -215,17 +240,18 @@ footer{
 
 
 
-h2{
+.this-title{
     font-size: 70px
 }
 
 .text{
     width: 620px; 
     line-height: 35px;
+    padding: 70px
 }
 
 .img-area-3{
-    width: 900px;
+    width: 700px;
 }
 
 
