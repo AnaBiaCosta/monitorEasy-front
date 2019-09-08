@@ -1,0 +1,35 @@
+body{
+    background:linear-gradient(0deg, #004D40 0%, rgba(0, 77, 64, 0.55)), url("../img/chart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    width: 520px;
+    height: 300px;
+    border-radius: 25px;
+    background: url("../img/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.bem-vindo{
+    margin-top: 50px
+}
+
+b{
+    font-weight: bold
+}
+

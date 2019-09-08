@@ -106,5 +106,10 @@ u{
     color: red; 
     margin-bottom: 20px;
     font-weight: bold
-
 }
+
+.bem-vindo{
+    display: flex;
+    
+}
+
