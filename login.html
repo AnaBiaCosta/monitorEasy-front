@@ -8,11 +8,35 @@
 
     <link rel="stylesheet" href="css/style-padrao.css">
     <link rel="stylesheet" href="css/style-login.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section class="login-container">
-        <h1>ENTRAR</h1>
+        <header>
+            <h1 class="title text-light">ENTRAR</h1>
+        </header>
+
+        <div class="input-container">
+            <p class="text-input">Email</p>
+            <input type="text" class="input" id="email" placeholder="rodrigo@monitoreasy.com.br">
+
+            <p class="text-input">Senha</p>
+            <input type="password" class="input" id="senha" placeholder="*********">
+        </div>
+
+        <div class="contato">
+            <p class="text">Não possui uma conta? <span class="contato-destaque">Entre em contato com a gente</span></p>
+            <u>Esqueci minha senha</u>
+        </div>
+
+        <p class="erro">Email ou senha inválidos</p>
+
+
+        <button class="btn-login">ENTRAR</button>
     </section>
+
+
+
+    <script src="js/login.js"></script>
 </body>
