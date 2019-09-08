@@ -1,18 +1,24 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px; 
+    font-weight: 300;
+    font-size: 18px; 
     overflow-x:hidden;
+    line-height: 35px;
 }
 
 
 
-/* FORMATAÇÃO DE TEXTO */
+
+/* formatação dos textos */
 .text-bold{
-    font-weight: bolder;
+    font-weight: 700
 }
 
 h1{
-    margin:0px
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px
 }
 
 
@@ -49,12 +55,6 @@ h1{
 
 
 
-
-
-
-
-
-
 /* navbar */
 nav{
     width: 100%;
@@ -62,6 +62,7 @@ nav{
     left: 0px;
     top: 0px;
     line-height: 60px;
+    position: fixed;
 }
 
 ul{
@@ -95,183 +96,164 @@ li a:hover{
 
 .nav-brand{    
     font-size: 25px;
-    float: left
+    float: left;
 }
 
 
 
 
-/* AREA 1 */
+/* area principal */
 .principal{
     width: 100%;
-    height: 787px;
+    height: 700px;
     background: linear-gradient(180deg, #1E1E1E 0%, rgba(30, 30, 30, 0.25) 100%), url("../img/black-and-white-chart-cost-241544.jpg");
     background-size: cover;
 }
 
 .principal-title{
-    font-size: 144px;
-    line-height: 787px;
+    font-size: 130px;
+    line-height: 700px;
+    text-align: center;
+    font-weight: 100
+}
+
+
+
+
+/* area 1 - vantagens */
+.vantagens{
+    display: flex; 
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center
+}
+
+.vantagens-item{
+    width: 270px;
+    text-align: center;
+}
+
+.material-icons.md-100{
+    font-size: 100px; 
+}
+
+
+
+
+/* area 2 */
+.area-2{
+    display: flex;
+    width: 100%;
+    height: 530px;
+    background: #d9e8c8
+}
+
+.img-area-2{
+    width: 600px
+}
+
+.text-container{
+    padding-left: 70px;
+    padding-right: 70px;
     text-align: center
 }
 
 
 
 
-/* AREA 2 */
-.slogan{
-    height: 79px;
-    line-height: 79px;
-    text-align: center;
-    font-size: 48px;
-    letter-spacing: 0.6em;
-    font-weight: bold;
-    color: #00C853;
-    background: #004D40;
-}
 
-
-.vantagens-container-itens{
-    display: flex;
-    color: #FFFFFF;
-    justify-content: space-around;
-    align-items: center;
-    height: 437px;
-    background: #1E1E1E;
-}
-
-.vantagens-item{
-    width: 271px;
-    text-align: center;
-}
-
-.new{
-    margin-top: 40px;
-    line-height: 35px;
-}
-
-.tb{
-    font-weight: bold
-}
-
-
-
-
-
-/* AREA 3 */
-.img-lorem{
-    height: 662px;
-    display: flex;
-}
-
-.container-area3{
-    text-align: center;
-    margin: 0 auto;
-}
-
-.text{
-    margin-top: 40px
-}
-
-
-
-
-
-
-
-/* AREA 4 */
-.area-i{
-    height: 787px;
-    background:linear-gradient(180deg, #004D40 0%, rgba(0, 0, 0, 0.84) 0%), url("../img/blur-chart-data-159888.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 150px
-}
-
-.title-new{
-    font-size: 130px;
-    width: 600px;
-    padding-right: 50px;
-    
-}
-
-.text-new{
-    width: 620px;
-    line-height: 186.4%;
-}
-
-
-
-
-
-
-
-
-.title{
-    font-size: 96px;
-    font-weight: bold;
-    margin-left: 50px;
-    color: #FFFFFF;
-    margin-bottom: 30px
-}
-
-
-
-
-
-footer{
-    height: 296px;
-    background: #B2FF59;
-    font-size: 25px;
-    text-align: center;
-    line-height: 269px
-}
-
-.area4{
-    height: 787px;
+/* area 3 */
+.area-3{
+    height: 610px;
     background:linear-gradient(180deg, #004D40 0%, rgba(0, 77, 64, 0.51) 0%), url("../img/adult-computer-connection-2696299.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-
-
-.this-title{
-    font-size: 70px
+.area-3-container{
+    padding-top: 280px;
+    width: 690px;
+    padding-left: 75px 
 }
 
-.text{
-    width: 620px; 
-    line-height: 35px;
-    padding: 70px
+.area-3-title{
+    font-size: 86px;
+    text-align: left
 }
 
-.img-area-3{
-    width: 700px;
-}
-
-
-
-
-
-
-.eai{
-   padding-top: 400px
+.area-3-text{
+    text-align: left
 }
 
 
-.oi{
-    color: red;
-    font-size: 200px
+
+
+
+/* area 4 */
+.area-4{
+    height: 610px;
+    background:linear-gradient(180deg, #004D40 0%, rgba(0, 0, 0, 0.84) 0%), url("../img/blur-chart-data-159888.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.text-area{
-    color: white;
-    width: 550px; 
-    line-height: 35px;
-    margin-left: 50px;
+.area-4-title{
+    font-size: 130px;
+    line-height: 150px;
+    width: 500px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.area-4-text{
+    width: 500px
+}
+
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 250px;
+    font-size: 14px
+}
+
+.footer-container{
+    border-top-left-radius: 70% 15% ;
+    height: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.footer-item{
+    width: 210px;
+    text-align: justify;
+    line-height: 25px
+}
+
+.footer-title{
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.footer-img{
+    width: 30px;
+}
+
+.footer-img-container{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 170px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-end
 }
