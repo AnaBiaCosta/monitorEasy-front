@@ -2,6 +2,13 @@ document.querySelector('.btn-login').addEventListener('click', entrar)
 let erro = document.querySelector('.erro')
 
 
+// document.querySelector('.status').addEventListener('click', scroll)
+// function scroll(){
+
+// }
+
+
+
 
 
 
@@ -12,3 +19,5 @@ function entrar(){
         erro.style.display = 'block'
     }
 }
+
+
