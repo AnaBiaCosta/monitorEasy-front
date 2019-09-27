@@ -1,0 +1,25 @@
+
+
+/* area 4 */
+.area-4{
+    height: 610px;
+    background:linear-gradient(180deg, #004D40 0%, rgba(0, 0, 0, 0.84) 0%), url("../img/blur-chart-data-159888.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed
+}
+
+.area-4-title{
+    font-size: 130px;
+    line-height: 150px;
+    width: 500px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.area-4-text{
+    width: 500px
+}

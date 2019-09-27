@@ -1,26 +1,19 @@
-h2{
-    margin: 0;
-    padding-bottom: 40px;
-    font-size: 40px
-}
-
 .vantagens{
-    padding: 90px;
-}
-
-
-.vantagens-title{
-    font-weight: 100;
-    margin-bottom: 25px;
-}
-
-.vantagens-container{
+    padding: 5%;
     display: flex; 
-    width: 100%;
     justify-content: space-around;
     align-items: center;
 }
 
+.header-vantagens{
+    align-self: flex-start;
+    width: 30%;
+}
+
+.title{
+    font-weight: 100;
+    margin-top: 0
+}
 
 .vantagens-item{
     width: 270px;
@@ -42,7 +35,7 @@ h2{
 }
 
 .number{
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 30px
 }
 
@@ -70,4 +63,10 @@ h2{
 	-webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+
+
+
+
+
 
