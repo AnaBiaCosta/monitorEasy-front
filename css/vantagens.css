@@ -1,13 +1,10 @@
+
 .vantagens{
     padding: 5%;
     display: flex; 
     justify-content: space-around;
     align-items: center;
-}
-
-.header-vantagens{
-    align-self: flex-start;
-    width: 30%;
+    flex-wrap: wrap;
 }
 
 .title{
@@ -39,7 +36,6 @@
     margin-bottom: 30px
 }
 
-
 .zoom:hover{
     -webkit-box-shadow: -16px 23px 28px 0px rgba(4,71,31,1);
     -moz-box-shadow: -16px 23px 28px 0px rgba(4,71,31,1);
@@ -48,7 +44,8 @@
 
 
 .zoom {
-	overflow: hidden;
+    overflow: hidden;
+    margin: 15px;
 }
 
 .zoom img{
@@ -66,6 +63,51 @@
 
 
 
+@media only screen and (min-width: 1px) {
+    .header-vantagens{
+        align-self: flex-start;
+        min-width: 100%;
+        
+    }
+    .img-icon{
+        width: 40%;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .zoom {
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .header-vantagens{
+        align-self: flex-start;
+        width: 100%;
+    }
+    .img-icon{
+        width: 40%;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .zoom {
+        width:40%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .header-vantagens{
+        align-self: flex-start;
+        min-width: 30%;
+        
+    }
+    .img-icon{
+        width: 40%;
+        margin-bottom: 30px
+    }
+    .zoom {
+        width:30%;
+    }
+}
 
 
 
