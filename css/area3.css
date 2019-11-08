@@ -9,11 +9,38 @@
     align-items: flex-end
 }
 
-.title-area3{
-    font-size: 80px;
-    margin-bottom: 40px
-}
+
 
 .text-area3{
     width: 500px
+}
+
+@media only screen and (min-width: 1px) {
+    .area-3{
+        height: 300px;
+    }
+    .title-area3{
+        font-size: 60px;
+        margin-bottom: 25px
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .area-3{
+        height: 400px;
+    }
+    .title-area3{
+        font-size: 70px;
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .area-3{
+        height: 500px;
+    }
+    .title-area3{
+        font-size: 80px;
+        margin-bottom: 40px
+    }
 }
