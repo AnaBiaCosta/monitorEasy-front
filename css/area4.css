@@ -2,24 +2,67 @@
 
 /* area 4 */
 .area-4{
-    height: 610px;
     background:linear-gradient(180deg, #004D40 0%, rgba(0, 0, 0, 0.84) 0%), url("../img/blur-chart-data-159888.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-attachment: fixed
+    background-attachment: fixed;
+    flex-wrap: wrap;
 }
 
-.area-4-title{
-    font-size: 130px;
-    line-height: 150px;
-    width: 500px;
-    text-align: right;
-    margin-right: 50px;
+
+@media only screen and (min-width: 1px) {
+    .area-4-text{
+        width: 100%;
+        border: 3px solid red;
+    }
+    .area-4-title{
+        font-size: 80px;
+        line-height: 80px;
+        width: 100%;
+        text-align: right;
+        border: 3px solid red;
+    }
 }
 
-.area-4-text{
-    width: 500px
+@media only screen and (min-width: 600px) {
+    .area-4{
+        height: 400px;
+    }
+    .area-4-text{
+        width: 100%;
+        border: 3px solid yellow;
+        padding: 0 30px 30px 30px;
+    }
+    .area-4-title{
+        font-size: 5em;
+        width: 100%;
+        text-align: right;
+        border: 3px solid yellow;
+        word-wrap: break-word; 
+    }
+    h1.text-primary.area-4-title  {
+        margin: 30px 0 30px 0;
+    }
+} 
+@media only screen and (min-width: 900px) {
+    .area-4{
+        height: 610px;
+    }
+    .area-4-text{
+        width: 30%;
+        border: 3px solid rgb(255, 0, 170);
+        word-wrap: break-word; 
+    }
+    .area-4-title{
+        font-size: 8em;
+        /*line-height: 150px;*/
+        width: 60%;
+        text-align: right;
+        margin-right: 50px;
+        border: 3px solid rgb(255, 0, 170);
+        word-wrap: break-word; 
+    }
 }
