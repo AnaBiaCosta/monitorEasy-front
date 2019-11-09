@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/alternative-area.css">
     <link rel="stylesheet" href="css/principal-area.css">
     <link rel="stylesheet" href="css/style-origin.css">
+    <!--hamburger icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,700&display=swap" rel="stylesheet">
 </head>
@@ -25,16 +27,34 @@
 
 <body>
     <header>
-        <nav class="bg-primary">
-            <ul>
-                <li><a href="index.html" class="nav-brand"><b class="text-bold">monitor</b>easy</a></li>
-                <li><a href="#area-2" class="btn-login text-primary bg-dark">Status</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Quem Somos</a></li>
-                <li><a href="">Produtos</a></li>
-                <li><a href="">Novidades</a></li>
-            </ul>
-        </nav>
+        
+<!--
+            <nav class="bg-primary">
+                <ul>
+                    
+                    
+                </ul>
+            </nav>
+        
+        -->
+
+    <nav class="topnav bg-primary" id="myTopnav">
+        <!--
+        <div class="nav-items">-->
+
+            <a href="index.html" class="nav-brand"><b class="text-bold">monitor</b>easy</a>
+            <a href="#area-2" >Status</a>
+            <a href="">Home</a>
+            <a href="#area-4">Quem Somos</a>
+            <a href="">Produtos</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            <!--</div>-->
+        
+    </nav>
+
+
     </header>
 
     <main>
@@ -134,7 +154,7 @@
 
 
         <!-- area 4 -->
-        <section class="area-4 text-light">
+        <section class="area-4 text-light" id="area-4">
             <h1 class="text-primary area-4-title" data-anime="left">OTIMIZE TEMPO</h1>
 
             <p class="area-4-text" data-anime="right">
@@ -191,6 +211,7 @@
 
 
     <script src="js/animation.js"></script>
+    <script src="js/nav-bar.js"></script>
 </body>
 
 </html>
