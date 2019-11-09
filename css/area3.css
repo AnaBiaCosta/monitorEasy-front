@@ -1,45 +1,47 @@
 /* area 3 */
-.area-3{
+
+.area-3 {
     height: 500px;
-    padding:5%;
-    background:linear-gradient(180deg, #004D40 0%, rgba(0, 77, 64, 0.51) 0%), url("../img/adult-computer-connection-2696299.png");
+    padding: 5%;
+    background: linear-gradient(180deg, #004D40 0%, rgba(0, 77, 64, 0.51) 0%), url("../img/adult-computer-connection-2696299.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: flex-end
 }
 
-
-
-.text-area3{
+.text-area3 {
     width: 500px
+}
+.text-area3 b{
+    font-weight: 700;
 }
 
 @media only screen and (min-width: 1px) {
-    .area-3{
+    .area-3 {
         height: 300px;
     }
-    .title-area3{
+    .title-area3 {
         font-size: 60px;
         margin-bottom: 25px
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .area-3{
+    .area-3 {
         height: 400px;
     }
-    .title-area3{
+    .title-area3 {
         font-size: 70px;
         margin-bottom: 30px
     }
 }
 
 @media only screen and (min-width: 900px) {
-    .area-3{
+    .area-3 {
         height: 500px;
     }
-    .title-area3{
+    .title-area3 {
         font-size: 80px;
         margin-bottom: 40px
     }

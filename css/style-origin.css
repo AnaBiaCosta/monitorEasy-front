@@ -11,7 +11,8 @@ body{
 }
 
 .text-bold{
-    font-weight: 700
+    font-weight: 700;
+    flex-wrap: wrap;
 }
 
 h1{

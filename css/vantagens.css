@@ -1,18 +1,17 @@
-
-.vantagens{
+.vantagens {
     padding: 5%;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.title{
+.title {
     font-weight: 100;
     margin-top: 0
 }
 
-.vantagens-item{
+.vantagens-item {
     width: 270px;
     text-align: center;
     box-sizing: border-box;
@@ -22,93 +21,93 @@
     border-radius: 10px;
 }
 
-.material-icons.md-100{
-    font-size: 100px; 
+.material-icons.md-100 {
+    font-size: 100px;
 }
 
-.img-icon{
+.img-icon {
     width: 40%;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
-.number{
+.number {
     font-size: 45px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
-.zoom:hover{
-    -webkit-box-shadow: -16px 23px 28px 0px rgba(4,71,31,1);
-    -moz-box-shadow: -16px 23px 28px 0px rgba(4,71,31,1);
-    box-shadow: -16px 23px 28px 0px rgba(4,71,31,1);
+.zoom:hover {
+    -webkit-box-shadow: -16px 23px 28px 0px rgba(4, 71, 31, 1);
+    -moz-box-shadow: -16px 23px 28px 0px rgba(4, 71, 31, 1);
+    box-shadow: -16px 23px 28px 0px rgba(4, 71, 31, 1);
 }
-
 
 .zoom {
     overflow: hidden;
     margin: 15px;
 }
 
-.zoom img{
-	max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.zoom:hover img{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-
-
 @media only screen and (min-width: 1px) {
-    .header-vantagens{
+    .header-vantagens {
         align-self: flex-start;
         min-width: 100%;
-        
     }
-    .img-icon{
+    .img-icon {
         width: 40%;
         margin-bottom: 30px;
         display: none;
     }
     .zoom {
-        width:100%;
+        max-width: 100%;
+    }
+    .vantagens-item {
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .header-vantagens{
+    .header-vantagens {
         align-self: flex-start;
         width: 100%;
     }
-    .img-icon{
+    .img-icon {
         width: 40%;
         margin-bottom: 30px;
         display: none;
     }
     .zoom {
-        width:40%;
+        max-width: 80%;
+    }
+    .vantagens-item {
+        width: 270px;
     }
 }
 
 @media only screen and (min-width: 900px) {
-    .header-vantagens{
+    .header-vantagens {
         align-self: flex-start;
         min-width: 30%;
-        
     }
-    .img-icon{
+    .img-icon {
         width: 40%;
         margin-bottom: 30px
     }
     .zoom {
-        width:30%;
+        max-width: 90%;
+    }
+    .vantagens-item {
+        width: 270px;
     }
 }
-
-
-
-
