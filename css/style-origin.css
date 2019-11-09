@@ -28,7 +28,7 @@ h2{
 
 
 
-@media only screen and (min-width: 1px) {
+@media only screen and (max-width: 599px) {
     .btn-primary{
         width: 100px;
         border-radius: 6px;
@@ -36,6 +36,10 @@ h2{
         text-align: center;
         margin: 40px 40% 30px 40%;
         align-self:center;
+    }
+    h1{
+        font-size: 40px;
+        margin-bottom: 80px;
     }
 }
 

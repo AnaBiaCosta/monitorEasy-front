@@ -17,13 +17,20 @@
     font-weight: 700;
 }
 
-@media only screen and (min-width: 1px) {
+@media only screen and (max-width: 599px) {
     .area-3 {
-        height: 300px;
+        height: auto;
     }
     .title-area3 {
         font-size: 60px;
-        margin-bottom: 25px
+        margin-bottom: 25px;
+        line-height: 65px;
+    }
+    .text-area3 {
+        line-break: auto;
+        font-weight: 400;
+        font-size: 15px;
+        width: 100%;
     }
 }
 

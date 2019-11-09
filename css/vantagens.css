@@ -59,7 +59,7 @@
     transform: scale(1.1);
 }
 
-@media only screen and (min-width: 1px) {
+@media only screen and (max-width: 599px) {
     .header-vantagens {
         align-self: flex-start;
         min-width: 100%;
@@ -70,10 +70,15 @@
         display: none;
     }
     .zoom {
-        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: 15px 0px;
     }
     .vantagens-item {
         width: 100%;
+    }
+    .text-container h2 {
+        
     }
 }
 
