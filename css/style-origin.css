@@ -7,7 +7,7 @@ body{
 }
 
 .header-vantagens{
-    width: 30%
+    width: 30% ;
 }
 
 .text-bold{
@@ -26,10 +26,34 @@ h2{
     margin-bottom: 30px;
 }
 
-.btn-primary{
-    width: 100px;
-    border-radius: 6px;
-    padding: 5px;
-    text-align: center;
-    margin-top: 40px
+
+
+@media only screen and (min-width: 1px) {
+    .btn-primary{
+        width: 100px;
+        border-radius: 6px;
+        padding: 5px;
+        text-align: center;
+        margin: 40px 40% 30px 40%;
+        align-self:center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .btn-primary{
+        width: 100px;
+        border-radius: 6px;
+        padding: 5px;
+        text-align: center;
+        margin-top: 40px
+    }
+}
+@media only screen and (min-width: 900px) {
+    .btn-primary{
+        width: 100px;
+        border-radius: 6px;
+        padding: 5px;
+        text-align: center;
+        margin-top: 40px
+    }
 }

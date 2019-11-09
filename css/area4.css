@@ -14,32 +14,39 @@
 
 
 @media only screen and (min-width: 1px) {
+    .area-4{
+        height: 500px;
+    }
     .area-4-text{
         width: 100%;
         border: 3px solid red;
+        padding: 10px;
     }
     .area-4-title{
         font-size: 80px;
         line-height: 80px;
         width: 100%;
-        text-align: right;
+        text-align: center;
         border: 3px solid red;
+    }
+    h1.text-primary.area-4-title  {
+        margin: 0;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .area-4{
-        height: 400px;
+        height: 420px;
     }
     .area-4-text{
         width: 100%;
         border: 3px solid yellow;
-        padding: 0 30px 30px 30px;
+        padding: 0 30px 50px 30px;
     }
     .area-4-title{
         font-size: 5em;
         width: 100%;
-        text-align: right;
+        text-align: center;
         border: 3px solid yellow;
         word-wrap: break-word; 
     }
