@@ -16,9 +16,17 @@
     text-align: center;
     box-sizing: border-box;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
     box-sizing: border-box;
     border: 2px solid #00C853;
     border-radius: 10px;
+}
+
+.text-normal{
+    font-weight: 300;
 }
 
 .material-icons.md-100 {
@@ -33,6 +41,7 @@
 .number {
     font-size: 45px;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .zoom:hover {
